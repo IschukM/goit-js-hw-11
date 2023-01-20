@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 export default class NewsApiServer {
   constructor() {
     this.searchQuery = '';
